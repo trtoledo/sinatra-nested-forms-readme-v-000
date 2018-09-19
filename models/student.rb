@@ -1,7 +1,7 @@
 class Student
   attr_reader :name, :grade
 
- STUDENTS = []
+ # STUDENTS = []
 
   def initialize(params)
     @name = params[:name]
